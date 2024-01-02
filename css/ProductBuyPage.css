@@ -1,0 +1,30 @@
+
+.product-image-container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .product-image {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .product-image:hover {
+    transform: scale(3);
+    cursor: pointer;
+  }
+
+  .zoom-square {
+    position: absolute;
+    width: 100px; /* Adjust the size of the zoom square */
+    height: 100px; /* Adjust the size of the zoom square */
+    border: 2px solid #ccc;
+    display: none;
+  }
+  .product-info-div{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+p{
+    text-align: justify;
+}
